@@ -1,25 +1,13 @@
-// console.log('start exe...');
-// console.log('logic exe...');
-// console.log('complete exe...');
+// How Node.js work
 
-// console.log('start exe...');
-// setTimeout(() => {
-//     console.log('logic exe...');
-// }, 2000);
-// console.log('complete exe...');
+console.log('Starting log');
 
+setTimeout(() => {
+    console.log('2 second log');
+}, 2000);
 
-// Drawback
-// let a=10
-// let b=0
+setTimeout(() => {
+    console.log('0 second log');
+}, 0);
 
-// setTimeout(() => {
-//     b=20;
-// }, 2000);
-
-// console.log(a+b);
-
-
-// let a=10
-// let b=0
-
+console.log('completed log');
